@@ -37,8 +37,8 @@ function initMap(): void {
 
       map.fitBounds(
         new woosmap.map.LatLngBounds(
-          { lat: 48.88115758013444, lng: 2.3562935123187856 },
-          { lat: 48.87945292784522, lng: 2.3539262034398405 },
+          { lat: 18.530823, lng: 73.847466 },
+          { lat: 18.530823, lng: 73.847466 },
         ),
       );
       hideLoader();
