@@ -20,7 +20,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "vite build --outDir dist --base './'",
+    "build": "next build",
     "test": "tsc --no-emit",
     "preview": "vite preview"
   },
@@ -29,5 +29,6 @@
     "typescript": "^5.3.3",
     "vite": "^5.4.11"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "type": "module"
 }
